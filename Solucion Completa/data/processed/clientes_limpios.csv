@@ -1,1 +1,76 @@
 id,nombre,edad,fecha_registro,correo,ciudad,ingreso_mensual
+7,Luisa Diaz,65,2022-12-20,luisa@email.com,concepcion,900000.0
+57,Matias Soto,28,2023-01-02,matias@email.com,la serena,510000.0
+42,Rodrigo Peña,38,2023-01-03,rodrigo@email.com,santiago,720000.0
+29,Felipe Contreras,47,2023-01-05,felipe@email.com,valparaiso,870000.0
+1,Juan Perez,25,2023-01-15,juan@email.com,santiago,500000.0
+87,Luis Morales,52,2023-01-20,luis@email.com,la serena,950000.0
+72,Ricardo Soto,50,2023-01-26,ricardo@email.com,temuco,920000.0
+58,Carolina Diaz,43,2023-02-04,carolina@email,santiago,840000.0
+43,Gloria Castillo,51,2023-02-06,gloria@email,concepcion,880000.0
+30,Isabel Morales,53,2023-02-14,isabel@email.com,concepcion,920000.0
+17,Paula Rios,27,2023-02-20,paula@email.com,la serena,480000.0
+88,Camila Torres,29,2023-02-22,camila@email,santiago,580000.0
+73,Daniela Perez,27,2023-02-28,daniela@email,santiago,540000.0
+59,Felipe Silva,52,2023-03-06,felipe@email.com,valparaiso,930000.0
+44,Cristian Navarro,27,2023-03-09,cristian@email.com,temuco,600000.0
+31,Pablo Reyes,26,2023-03-18,pablo@email.com,santiago,540000.0
+89,Jorge Diaz,41,2023-03-24,jorge@email.com,valparaiso,790000.0
+74,Alberto Diaz,44,2023-03-30,alberto@email.com,valparaiso,810000.0
+4,Ana Gomez,30,2023-04-01,ana@email.com,santiago,600000.0
+75,Paula Castro,39,2023-04-02,paula@email.com,concepcion,720000.0
+60,Andrea Rios,37,2023-04-08,andrea@email.com,concepcion,760000.0
+45,Lorena Fuentes,36,2023-04-12,lorena@email.com,santiago,750000.0
+32,Daniela Cruz,34,2023-04-21,daniela@email,temuco,610000.0
+19,Camila Soto,41,2023-04-22,camila@email,valparaiso,707674.4186046511
+90,Fernanda Castro,36,2023-04-26,fernanda@email.com,concepcion,720000.0
+77,Sebastian Vega,31,2023-05-04,sebastian@email.com,la serena,590000.0
+62,Cristina Flores,48,2023-05-10,cristina@email.com,temuco,890000.0
+47,Oscar Salinas,58,2023-05-14,oscar@email.com,valparaiso,1020000.0
+20,Daniel Vargas,36,2023-05-18,daniel@email.com,santiago,820000.0
+33,Sebastian Torres,29,2023-05-25,sebastian@email.com,santiago,580000.0
+92,Alejandro Vega,47,2023-05-28,alejandro@email.com,temuco,880000.0
+78,Claudia Torres,42,2023-06-06,claudia@email,santiago,830000.0
+9,Mario Rojas,34,2023-06-10,mario@email.com,la serena,450000.0
+63,Luis Vega,33,2023-06-12,luis@email,santiago,610000.0
+48,Carla Espinoza,32,2023-06-17,carla@email,santiago,640000.0
+34,Veronica Soto,48,2023-06-27,veronica@email.com,valparaiso,707674.4186046511
+93,Carolina Soto,34,2023-06-30,carolina@email,santiago,620000.0
+21,Patricia Núñez,44,2023-06-30,patricia@email.com,santiago,910000.0
+94,Rodrigo Silva,39,2023-07-02,rodrigo@email.com,valparaiso,760000.0
+79,Diego Morales,36,2023-07-08,diego@email.com,valparaiso,740000.0
+64,Marcela Torres,41,2023-07-14,marcela@email.com,valparaiso,850000.0
+49,Esteban Pizarro,41,2023-07-19,esteban@email.com,concepcion,830000.0
+35,Ignacio Rojas,37,2023-07-29,ignacio@email.com,concepcion,770000.0
+95,Daniela Rojas,28,2023-08-04,daniela@email.com,concepcion,610000.0
+23,Rosa Flores,36,2023-08-08,rosa@email.com,valparaiso,720000.0
+80,Andrea Silva,28,2023-08-10,andrea@email.com,concepcion,600000.0
+65,Hugo Castro,55,2023-08-16,hugo@email.com,concepcion,970000.0
+50,Natalia Vargas,29,2023-08-21,natalia@email.com,la serena,570000.0
+37,Monica Araya,42,2023-08-30,monica@email.com,santiago,860000.0
+12,Fernanda Silva,22,2023-09-01,fernanda@email.com,valparaiso,707674.4186046511
+97,Hector Diaz,55,2023-09-06,hector@email.com,la serena,1020000.0
+24,Alvaro Diaz,60,2023-09-09,alvaro@email.com,temuco,707674.4186046511
+82,Felipe Rojas,49,2023-09-12,felipe@email.com,temuco,910000.0
+38,Raul Cabrera,50,2023-09-15,raul@email,temuco,990000.0
+67,Patricio Silva,29,2023-09-18,patricio@email.com,la serena,560000.0
+52,Alejandro Ortiz,46,2023-09-23,alejandro@email.com,temuco,910000.0
+13,Diego Castro,45,2023-10-05,diego@email.com,santiago,1200000.0
+98,Claudia Castro,31,2023-10-08,claudia@email,santiago,670000.0
+25,Carolina Vega,28,2023-10-10,carolina@email.com,santiago,560000.0
+83,Monica Diaz,38,2023-10-14,monica@email,santiago,700000.0
+39,Francisca Silva,24,2023-10-20,francisca@email.com,la serena,430000.0
+68,Natalia Muñoz,36,2023-10-20,natalia@email,santiago,690000.0
+53,Pamela Rojas,35,2023-10-25,pamela@email,santiago,680000.0
+99,Pablo Vega,44,2023-11-10,pablo@email.com,valparaiso,830000.0
+14,Andrea Muñoz,38,2023-11-11,andrea@email,santiago,1100000.0
+27,Marcelo Fuentes,39,2023-11-12,marcelo@email.com,la serena,780000.0
+84,Carlos Castro,45,2023-11-16,carlos@email.com,valparaiso,880000.0
+69,Fernando Rojas,47,2023-11-22,fernando@email.com,valparaiso,880000.0
+40,Tomás Bravo,33,2023-11-25,tomas@email.com,santiago,680000.0
+54,Gonzalo Castro,40,2023-11-27,gonzalo@email.com,valparaiso,870000.0
+100,Andrea Torres,37,2023-12-12,andrea@email.com,concepcion,750000.0
+85,Patricia Vega,33,2023-12-18,patricia@email.com,concepcion,650000.0
+70,Carla Vargas,34,2023-12-24,carla@email.com,concepcion,630000.0
+55,Daniela Molina,31,2023-12-29,daniela@email.com,concepcion,620000.0
+41,Cecilia Muñoz,45,2023-12-30,cecilia@email.com,valparaiso,810000.0

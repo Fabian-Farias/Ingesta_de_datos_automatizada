@@ -1,1 +1,76 @@
 id,nombre,edad,fecha_registro,correo,ciudad,ingreso_mensual,grupo_edad,ingreso_normalizado,ciudad_cod
+7,Luisa Diaz,65,2022-12-20,luisa@email.com,concepcion,900000.0,Adulto Mayor,0.6103896103896104,0
+57,Matias Soto,28,2023-01-02,matias@email.com,la serena,510000.0,Joven,0.1038961038961039,1
+42,Rodrigo Peña,38,2023-01-03,rodrigo@email.com,santiago,720000.0,Adulto,0.37662337662337664,2
+29,Felipe Contreras,47,2023-01-05,felipe@email.com,valparaiso,870000.0,Adulto,0.5714285714285714,4
+1,Juan Perez,25,2023-01-15,juan@email.com,santiago,500000.0,Joven,0.09090909090909091,2
+87,Luis Morales,52,2023-01-20,luis@email.com,la serena,950000.0,Adulto Mayor,0.6753246753246753,1
+72,Ricardo Soto,50,2023-01-26,ricardo@email.com,temuco,920000.0,Adulto,0.6363636363636364,3
+58,Carolina Diaz,43,2023-02-04,carolina@email,santiago,840000.0,Adulto,0.5324675324675324,2
+43,Gloria Castillo,51,2023-02-06,gloria@email,concepcion,880000.0,Adulto Mayor,0.5844155844155844,0
+30,Isabel Morales,53,2023-02-14,isabel@email.com,concepcion,920000.0,Adulto Mayor,0.6363636363636364,0
+17,Paula Rios,27,2023-02-20,paula@email.com,la serena,480000.0,Joven,0.06493506493506493,1
+88,Camila Torres,29,2023-02-22,camila@email,santiago,580000.0,Joven,0.19480519480519481,2
+73,Daniela Perez,27,2023-02-28,daniela@email,santiago,540000.0,Joven,0.14285714285714285,2
+59,Felipe Silva,52,2023-03-06,felipe@email.com,valparaiso,930000.0,Adulto Mayor,0.6493506493506493,4
+44,Cristian Navarro,27,2023-03-09,cristian@email.com,temuco,600000.0,Joven,0.22077922077922077,3
+31,Pablo Reyes,26,2023-03-18,pablo@email.com,santiago,540000.0,Joven,0.14285714285714285,2
+89,Jorge Diaz,41,2023-03-24,jorge@email.com,valparaiso,790000.0,Adulto,0.4675324675324675,4
+74,Alberto Diaz,44,2023-03-30,alberto@email.com,valparaiso,810000.0,Adulto,0.4935064935064935,4
+4,Ana Gomez,30,2023-04-01,ana@email.com,santiago,600000.0,Joven,0.22077922077922077,2
+75,Paula Castro,39,2023-04-02,paula@email.com,concepcion,720000.0,Adulto,0.37662337662337664,0
+60,Andrea Rios,37,2023-04-08,andrea@email.com,concepcion,760000.0,Adulto,0.42857142857142855,0
+45,Lorena Fuentes,36,2023-04-12,lorena@email.com,santiago,750000.0,Adulto,0.4155844155844156,2
+32,Daniela Cruz,34,2023-04-21,daniela@email,temuco,610000.0,Adulto,0.23376623376623376,3
+19,Camila Soto,41,2023-04-22,camila@email,valparaiso,707674.4186046511,Adulto,0.3606161280579885,4
+90,Fernanda Castro,36,2023-04-26,fernanda@email.com,concepcion,720000.0,Adulto,0.37662337662337664,0
+77,Sebastian Vega,31,2023-05-04,sebastian@email.com,la serena,590000.0,Adulto,0.2077922077922078,1
+62,Cristina Flores,48,2023-05-10,cristina@email.com,temuco,890000.0,Adulto,0.5974025974025974,3
+47,Oscar Salinas,58,2023-05-14,oscar@email.com,valparaiso,1020000.0,Adulto Mayor,0.7662337662337663,4
+20,Daniel Vargas,36,2023-05-18,daniel@email.com,santiago,820000.0,Adulto,0.5064935064935064,2
+33,Sebastian Torres,29,2023-05-25,sebastian@email.com,santiago,580000.0,Joven,0.19480519480519481,2
+92,Alejandro Vega,47,2023-05-28,alejandro@email.com,temuco,880000.0,Adulto,0.5844155844155844,3
+78,Claudia Torres,42,2023-06-06,claudia@email,santiago,830000.0,Adulto,0.5194805194805194,2
+9,Mario Rojas,34,2023-06-10,mario@email.com,la serena,450000.0,Adulto,0.025974025974025976,1
+63,Luis Vega,33,2023-06-12,luis@email,santiago,610000.0,Adulto,0.23376623376623376,2
+48,Carla Espinoza,32,2023-06-17,carla@email,santiago,640000.0,Adulto,0.2727272727272727,2
+34,Veronica Soto,48,2023-06-27,veronica@email.com,valparaiso,707674.4186046511,Adulto,0.3606161280579885,4
+93,Carolina Soto,34,2023-06-30,carolina@email,santiago,620000.0,Adulto,0.24675324675324675,2
+21,Patricia Núñez,44,2023-06-30,patricia@email.com,santiago,910000.0,Adulto,0.6233766233766234,2
+94,Rodrigo Silva,39,2023-07-02,rodrigo@email.com,valparaiso,760000.0,Adulto,0.42857142857142855,4
+79,Diego Morales,36,2023-07-08,diego@email.com,valparaiso,740000.0,Adulto,0.4025974025974026,4
+64,Marcela Torres,41,2023-07-14,marcela@email.com,valparaiso,850000.0,Adulto,0.5454545454545454,4
+49,Esteban Pizarro,41,2023-07-19,esteban@email.com,concepcion,830000.0,Adulto,0.5194805194805194,0
+35,Ignacio Rojas,37,2023-07-29,ignacio@email.com,concepcion,770000.0,Adulto,0.44155844155844154,0
+95,Daniela Rojas,28,2023-08-04,daniela@email.com,concepcion,610000.0,Joven,0.23376623376623376,0
+23,Rosa Flores,36,2023-08-08,rosa@email.com,valparaiso,720000.0,Adulto,0.37662337662337664,4
+80,Andrea Silva,28,2023-08-10,andrea@email.com,concepcion,600000.0,Joven,0.22077922077922077,0
+65,Hugo Castro,55,2023-08-16,hugo@email.com,concepcion,970000.0,Adulto Mayor,0.7012987012987013,0
+50,Natalia Vargas,29,2023-08-21,natalia@email.com,la serena,570000.0,Joven,0.18181818181818182,1
+37,Monica Araya,42,2023-08-30,monica@email.com,santiago,860000.0,Adulto,0.5584415584415584,2
+12,Fernanda Silva,22,2023-09-01,fernanda@email.com,valparaiso,707674.4186046511,Joven,0.3606161280579885,4
+97,Hector Diaz,55,2023-09-06,hector@email.com,la serena,1020000.0,Adulto Mayor,0.7662337662337663,1
+24,Alvaro Diaz,60,2023-09-09,alvaro@email.com,temuco,707674.4186046511,Adulto Mayor,0.3606161280579885,3
+82,Felipe Rojas,49,2023-09-12,felipe@email.com,temuco,910000.0,Adulto,0.6233766233766234,3
+38,Raul Cabrera,50,2023-09-15,raul@email,temuco,990000.0,Adulto,0.7272727272727273,3
+67,Patricio Silva,29,2023-09-18,patricio@email.com,la serena,560000.0,Joven,0.16883116883116883,1
+52,Alejandro Ortiz,46,2023-09-23,alejandro@email.com,temuco,910000.0,Adulto,0.6233766233766234,3
+13,Diego Castro,45,2023-10-05,diego@email.com,santiago,1200000.0,Adulto,1.0,2
+98,Claudia Castro,31,2023-10-08,claudia@email,santiago,670000.0,Adulto,0.3116883116883117,2
+25,Carolina Vega,28,2023-10-10,carolina@email.com,santiago,560000.0,Joven,0.16883116883116883,2
+83,Monica Diaz,38,2023-10-14,monica@email,santiago,700000.0,Adulto,0.35064935064935066,2
+39,Francisca Silva,24,2023-10-20,francisca@email.com,la serena,430000.0,Joven,0.0,1
+68,Natalia Muñoz,36,2023-10-20,natalia@email,santiago,690000.0,Adulto,0.33766233766233766,2
+53,Pamela Rojas,35,2023-10-25,pamela@email,santiago,680000.0,Adulto,0.3246753246753247,2
+99,Pablo Vega,44,2023-11-10,pablo@email.com,valparaiso,830000.0,Adulto,0.5194805194805194,4
+14,Andrea Muñoz,38,2023-11-11,andrea@email,santiago,1100000.0,Adulto,0.8701298701298701,2
+27,Marcelo Fuentes,39,2023-11-12,marcelo@email.com,la serena,780000.0,Adulto,0.45454545454545453,1
+84,Carlos Castro,45,2023-11-16,carlos@email.com,valparaiso,880000.0,Adulto,0.5844155844155844,4
+69,Fernando Rojas,47,2023-11-22,fernando@email.com,valparaiso,880000.0,Adulto,0.5844155844155844,4
+40,Tomás Bravo,33,2023-11-25,tomas@email.com,santiago,680000.0,Adulto,0.3246753246753247,2
+54,Gonzalo Castro,40,2023-11-27,gonzalo@email.com,valparaiso,870000.0,Adulto,0.5714285714285714,4
+100,Andrea Torres,37,2023-12-12,andrea@email.com,concepcion,750000.0,Adulto,0.4155844155844156,0
+85,Patricia Vega,33,2023-12-18,patricia@email.com,concepcion,650000.0,Adulto,0.2857142857142857,0
+70,Carla Vargas,34,2023-12-24,carla@email.com,concepcion,630000.0,Adulto,0.2597402597402597,0
+55,Daniela Molina,31,2023-12-29,daniela@email.com,concepcion,620000.0,Adulto,0.24675324675324675,0
+41,Cecilia Muñoz,45,2023-12-30,cecilia@email.com,valparaiso,810000.0,Adulto,0.4935064935064935,4

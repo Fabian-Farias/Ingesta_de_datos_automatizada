@@ -21,39 +21,44 @@ def clean_data(df):
     df_clean["nombre"] = df_clean["nombre"].astype(str).str.title().str.strip()
     df_clean["ciudad"] = df_clean["ciudad"].astype(str).str.lower().str.strip()
 
-    # 🔷 3. LIMPIEZA DE FECHAS
+    # 🔷 3. LIMPIEZA DE CORREO
+    df_clean["correo"] = df_clean["correo"].astype(str).str.lower().str.strip()
+    df_clean["correo"] = df_clean["correo"].replace(["none", "nan", ""], None)
+
+    # eliminar correos inválidos
+    df_clean = df_clean[df_clean["correo"].str.contains("@", na=False)]
+
+    # 🔷 4. LIMPIEZA DE FECHAS (🔥 OPCIÓN 1)
     df_clean["fecha_registro"] = pd.to_datetime(
         df_clean["fecha_registro"],
         errors="coerce"
     )
 
-    # Rellenar fechas faltantes en vez de eliminar todo
-    df_clean["fecha_registro"] = df_clean["fecha_registro"].fillna(method="ffill")
+    # eliminar registros sin fecha válida
+    df_clean = df_clean.dropna(subset=["fecha_registro"])
 
     logging.info(f"Después de procesar fechas: {len(df_clean)}")
 
-    # 🔷 4. LIMPIEZA DE INGRESOS
+    # 🔷 5. LIMPIEZA DE INGRESOS
     df_clean["ingreso_mensual"] = pd.to_numeric(
         df_clean["ingreso_mensual"],
         errors="coerce"
     )
 
-    # Rellenar con promedio (evita perder registros)
     promedio_ingreso = df_clean["ingreso_mensual"].mean()
     df_clean["ingreso_mensual"] = df_clean["ingreso_mensual"].fillna(promedio_ingreso)
 
     logging.info(f"Después de procesar ingresos: {len(df_clean)}")
 
-    # 🔷 5. EDAD
+    # 🔷 6. EDAD
     df_clean["edad"] = pd.to_numeric(df_clean["edad"], errors="coerce")
     df_clean["edad"] = df_clean["edad"].fillna(df_clean["edad"].median())
+    df_clean["edad"] = df_clean["edad"].astype(int)
 
-    # 🔷 6. CORREO (opcional limpieza básica)
-    df_clean["correo"] = df_clean["correo"].astype(str).str.lower().str.strip()
-
-    # 🔷 7. ELIMINAR DUPLICADOS POR ID (mantener el más reciente)
+    # 🔷 7. ELIMINAR DUPLICADOS
     df_clean = df_clean.sort_values("fecha_registro")
     df_clean = df_clean.drop_duplicates(subset=["id"], keep="last")
+    df_clean = df_clean.drop_duplicates(subset=["nombre", "correo"])
 
     logging.info(f"Después de eliminar duplicados: {len(df_clean)}")
 

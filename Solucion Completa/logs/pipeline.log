@@ -39,3 +39,38 @@
 2026-04-27 15:07:49,131 - INFO - ==== FIN LIMPIEZA ====
 2026-04-27 15:07:49,131 - INFO - ==== INICIO TRANSFORMACIÓN ====
 2026-04-27 15:07:49,133 - INFO - ==== FIN TRANSFORMACIÓN ====
+2026-05-04 13:34:50,473 - INFO - ==== INICIO INGESTA ====
+2026-05-04 13:34:56,026 - INFO - ==== INICIO INGESTA ====
+2026-05-04 13:35:02,789 - INFO - Conexión a Oracle exitosa
+2026-05-04 13:35:02,834 - INFO - Registros obtenidos: 100
+2026-05-04 13:41:02,951 - INFO - ==== INICIO INGESTA ====
+2026-05-04 13:41:10,847 - INFO - Conexión a Oracle exitosa
+2026-05-04 13:41:10,861 - INFO - Registros obtenidos: 100
+2026-05-04 13:41:10,874 - INFO - Total histórico: 100
+2026-05-04 13:41:10,874 - INFO - ==== FIN INGESTA ====
+2026-05-04 13:41:10,874 - INFO - ==== INICIO LIMPIEZA ====
+2026-05-04 13:41:10,875 - INFO - Registros iniciales: 100
+2026-05-04 13:41:10,875 - INFO - Después de eliminar sin ID o nombre: 99
+2026-05-04 13:41:10,883 - INFO - Después de procesar fechas: 99
+2026-05-04 13:41:10,884 - INFO - Después de procesar ingresos: 99
+2026-05-04 13:41:10,889 - INFO - Después de eliminar duplicados: 99
+2026-05-04 13:41:10,891 - INFO - Archivo clientes_limpios.csv generado
+2026-05-04 13:41:10,892 - INFO - ==== FIN LIMPIEZA ====
+2026-05-04 13:41:10,892 - INFO - ==== INICIO TRANSFORMACIÓN ====
+2026-05-04 13:41:10,900 - INFO - ==== FIN TRANSFORMACIÓN ====
+2026-05-04 13:56:27,811 - INFO - ==== INICIO INGESTA ====
+2026-05-04 13:56:33,849 - INFO - Conexión a Oracle exitosa
+2026-05-04 13:56:33,864 - INFO - Registros obtenidos: 100
+2026-05-04 13:56:33,865 - INFO - Creando histórico inicial
+2026-05-04 13:56:33,868 - INFO - Total histórico: 100
+2026-05-04 13:56:33,868 - INFO - ==== FIN INGESTA ====
+2026-05-04 13:56:33,868 - INFO - ==== INICIO LIMPIEZA ====
+2026-05-04 13:56:33,868 - INFO - Registros iniciales: 100
+2026-05-04 13:56:33,869 - INFO - Después de eliminar sin ID o nombre: 99
+2026-05-04 13:56:33,873 - INFO - Después de procesar fechas: 90
+2026-05-04 13:56:33,873 - INFO - Después de procesar ingresos: 90
+2026-05-04 13:56:33,877 - INFO - Después de eliminar duplicados: 75
+2026-05-04 13:56:33,879 - INFO - Archivo clientes_limpios.csv generado
+2026-05-04 13:56:33,879 - INFO - ==== FIN LIMPIEZA ====
+2026-05-04 13:56:33,879 - INFO - ==== INICIO TRANSFORMACIÓN ====
+2026-05-04 13:56:33,882 - INFO - ==== FIN TRANSFORMACIÓN ====

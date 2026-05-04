@@ -26,10 +26,10 @@ def conectar_oracle():
             dsn="desarrollopipeline_high",
 
             # 🔴 RUTA DONDE DESCOMPRIMISTE LA WALLET
-            config_dir=r"C:/Users/SSDD/Desktop/Gestion_de_Datos_IA/Ingesta_de_datos_automatizada/Wallet_DesarrolloPipeline",
+            config_dir=r"C:/Users/SSDD/Desktop/Ingesta_de_datos_automatizada/Wallet_DesarrolloPipeline",
 
             # 🔴 MISMA RUTA DE LA WALLET
-            wallet_location=r"C:/Users/SSDD/Desktop/Gestion_de_Datos_IA/Ingesta_de_datos_automatizada/Wallet_DesarrolloPipeline",
+            wallet_location=r"C:/Users/SSDD/Desktop/Ingesta_de_datos_automatizada/Wallet_DesarrolloPipeline",
 
             # 🔴 OPCIONAL (solo si tu wallet tiene contraseña)
             # wallet_password="TU_WALLET_PASSWORD"
@@ -68,8 +68,17 @@ def ingest_data():
     if os.path.exists(HISTORICO_PATH):
         df_actual = pd.read_csv(HISTORICO_PATH)
 
-        df_merge = df_nuevo.merge(df_actual, on="id", how="left", indicator=True)
-        df_nuevos = df_merge[df_merge["_merge"] == "left_only"]
+        df_merge = df_nuevo.merge(
+            df_actual[["id"]],
+            on="id",
+            how="left",
+            indicator=True
+        )   
+
+# 🔥 quedarse solo con registros nuevos
+        df_nuevos = df_merge[df_merge["_merge"] == "left_only"].copy()
+
+# 🔥 ahora sí las columnas coinciden perfecto
         df_nuevos = df_nuevos[df_nuevo.columns]
 
         if df_nuevos.empty:
@@ -88,3 +97,4 @@ def ingest_data():
     logging.info("==== FIN INGESTA ====")
 
     return df_actualizado
+
