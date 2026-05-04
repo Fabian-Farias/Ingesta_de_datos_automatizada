@@ -1,0 +1,41 @@
+2026-04-27 14:42:51,307 - INFO - ==== INICIO INGESTA ====
+2026-04-27 14:42:58,629 - INFO - Conexión a Oracle exitosa
+2026-04-27 14:42:58,908 - INFO - Registros obtenidos: 0
+2026-04-27 14:42:58,909 - INFO - Creando histórico inicial
+2026-04-27 14:42:58,911 - INFO - Total histórico: 0
+2026-04-27 14:42:58,911 - INFO - ==== FIN INGESTA ====
+2026-04-27 14:42:58,911 - INFO - ==== INICIO LIMPIEZA ====
+2026-04-27 14:52:18,175 - INFO - ==== INICIO INGESTA ====
+2026-04-27 14:52:30,362 - INFO - ==== INICIO INGESTA ====
+2026-04-27 14:52:44,961 - INFO - Conexión a Oracle exitosa
+2026-04-27 14:52:45,214 - INFO - Registros obtenidos: 0
+2026-04-27 14:55:01,997 - INFO - ==== INICIO INGESTA ====
+2026-04-27 14:55:08,847 - INFO - Conexión a Oracle exitosa
+2026-04-27 14:55:09,105 - INFO - Registros obtenidos: 0
+2026-04-27 14:55:09,106 - INFO - Creando histórico inicial
+2026-04-27 14:55:09,108 - INFO - Total histórico: 0
+2026-04-27 14:55:09,108 - INFO - ==== FIN INGESTA ====
+2026-04-27 14:55:09,108 - INFO - ==== INICIO LIMPIEZA ====
+2026-04-27 14:55:09,112 - INFO - Registros limpios: 0
+2026-04-27 14:55:09,112 - INFO - ==== FIN LIMPIEZA ====
+2026-04-27 14:55:09,112 - INFO - ==== INICIO TRANSFORMACIÓN ====
+2026-04-27 14:55:09,114 - INFO - ==== FIN TRANSFORMACIÓN ====
+2026-04-27 15:04:52,902 - INFO - ==== INICIO INGESTA ====
+2026-04-27 15:04:59,732 - INFO - Conexión a Oracle exitosa
+2026-04-27 15:05:00,113 - INFO - Registros obtenidos: 0
+2026-04-27 15:07:41,780 - INFO - ==== INICIO INGESTA ====
+2026-04-27 15:07:48,848 - INFO - Conexión a Oracle exitosa
+2026-04-27 15:07:49,116 - INFO - Registros obtenidos: 0
+2026-04-27 15:07:49,116 - INFO - Creando histórico inicial
+2026-04-27 15:07:49,119 - INFO - Total histórico: 0
+2026-04-27 15:07:49,120 - INFO - ==== FIN INGESTA ====
+2026-04-27 15:07:49,120 - INFO - ==== INICIO LIMPIEZA ====
+2026-04-27 15:07:49,120 - INFO - Registros iniciales: 0
+2026-04-27 15:07:49,122 - INFO - Después de eliminar sin ID o nombre: 0
+2026-04-27 15:07:49,125 - INFO - Después de procesar fechas: 0
+2026-04-27 15:07:49,126 - INFO - Después de procesar ingresos: 0
+2026-04-27 15:07:49,127 - INFO - Después de eliminar duplicados: 0
+2026-04-27 15:07:49,130 - INFO - Archivo clientes_limpios.csv generado
+2026-04-27 15:07:49,131 - INFO - ==== FIN LIMPIEZA ====
+2026-04-27 15:07:49,131 - INFO - ==== INICIO TRANSFORMACIÓN ====
+2026-04-27 15:07:49,133 - INFO - ==== FIN TRANSFORMACIÓN ====
